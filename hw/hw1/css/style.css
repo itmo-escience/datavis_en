@@ -1,0 +1,3 @@
+rect{ display: none;}
+.left-eye:active{display: none;}
+.left-eye:active + rect{ display: block; }
