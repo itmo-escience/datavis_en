@@ -4,8 +4,7 @@
 
 In this course, we will be using a tool called `git` to track changes to our code. We'll also be using Github, an online tool for hosting git repositories.
 
-Sign up for a [github](https://github.com/) account (if you don't already have one) and request a free account upgrade [on this page](https://github.com/edu).
-
+Sign up for a [github](https://github.com/) account (if you don't already have one).
 To use `git` you first need to download it. You can do it [here](https://git-scm.com/downloads).
 `git` is a version control system that keeps track of all changes in our project.
 You can use `git` directly from the command line or using any of GUI clients such as [gitkraken](https://www.gitkraken.com/).
@@ -39,7 +38,7 @@ Run the two commands described on GitHub under the heading "Push an existing rep
 
 Now all of our changes are in the remote repo.
 
-Last thing we need is configure our `github` repo to host our static files (This option will be available once your account upgrade request will be approved by `github`).
+Last thing we need is configure our `github` repo to host our static files.
 On your `github` repo page go to Settings > GitHub Pages and set the Source to `master branch`. And after short period of time this section will include the link to root of your hosted
 application. Using received url you can navigate throw the folders of your repo. If your directory contains `index.html` file it will be rendered automatically when you navigate to this folder. 
 

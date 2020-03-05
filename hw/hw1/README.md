@@ -1,6 +1,6 @@
 # Homework 1
 
-To complete this homework you should have a [`github`](https://github.com/) account with [free account upgrade](https://github.com/edu) approved and [`git`](https://git-scm.com/downloads) installed and configured as described in Pravtice 1.
+To complete this homework you should have a [`github`](https://github.com/) and [`git`](https://git-scm.com/downloads) installed and configured as described in Pravtice 1.
 
 ## Task
 Using template from this repository create checkbox which will switch:
