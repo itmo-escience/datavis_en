@@ -2,11 +2,9 @@
 
 ## GIT
 
-In this course, we will be using a tool called `git` to track changes to our code. We'll also be using Github, an online tool for hosting git repositories.
+In this course, we will be using a tool called `git` to track changes to our code. We'll also be using Github, an online tool for hosting git repositories. So first you need to sign up for a [github](https://github.com/) account (if you don't already have one).
 
-Sign up for a [github](https://github.com/) account (if you don't already have one).
-To use `git` you first need to download it. You can do it [here](https://git-scm.com/downloads).
-`git` is a version control system that keeps track of all changes in our project.
+And we will also use `git` as a version control system. You can download `git` [here](https://git-scm.com/downloads).
 You can use `git` directly from the command line or using any of GUI clients such as [gitkraken](https://www.gitkraken.com/).
 Then we need to configure username and email address which we've used in our github account.
 ```
