@@ -93,7 +93,7 @@ All HTML elements can have attributes.
 
 ### SVG
 
-SVG is a language for describing 2D graphics in XML. VG has several methods for drawing paths, boxes, circles, text, and graphic images.
+SVG is a language for describing 2D graphics in XML. SVG has several methods for drawing paths, boxes, circles, text, and graphic images.
 
 [Here](https://codesandbox.io/embed/small-feather-osv67?fontsize=14&hidenavigation=1&theme=dark) is an example of basic shapes in svg. 
 
