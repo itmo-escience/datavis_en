@@ -142,14 +142,25 @@ The difference between `var` and `let` is historical. First there was only `var`
 ```
 Therefore it is recommended to use `let` instead of `var` when you need a variable.
 
-JavaScript is also has constants. To declare a constant use a `const` keyward.
-
 Here is some notes about variable naming in JavaScript:
 * Variable names cannot contain spaces.
 * Variable names must begin with a letter, an underscore (_) or a dollar sign ($).
 * Variable names can only contain letters, numbers, underscores, or dollar signs.
 * Variable names are case-sensitive.
 
+JavaScript is also has constants. To declare a constant use a `const` keyward. 
+When declare a constant object it creates immutable binding between a constant name and an object so you cannot assign a new value to it:
+```JavaScript
+const obj = {a:1, b:2};
+
+obj = 2; // Uncaught TypeError: Assignment to constant variable.
+```
+but you still can modify an object itself:
+```JavaScript
+obj.c = 3 // {a:1, b:2, c:3}
+
+delete obj.a // {b:2, c:3}
+```
 ### Types
 
 JavaScript is dynamically typed languege. So the variables are not bound to any data type.
