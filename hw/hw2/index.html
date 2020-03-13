@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HW2</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="js/script.js" async></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Gap Minder Inspired World Health Data</h1>
+    </div>
+    <h1 class="year">2000</h1>
+    <div class="plot">
+        <svg id="scatter-plot"></svg>
+        <div class="side-pan">
+            <div class="selectors">
+                <div>radius:<select id='radius'></select></div>
+                <!-- Part 3: axis parameter selectors -->
+            </div>
+        </div>
+    </div>
+    <div class="range-control">
+        <input type="range" class="slider" min="1800" max="2020" value="2000"/>
+    </div>
+</body>
+
+</html>
