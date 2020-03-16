@@ -1,4 +1,4 @@
-# PRACTICE 1
+# PRACTICE 2
 
 ## Data visualisation process
 
