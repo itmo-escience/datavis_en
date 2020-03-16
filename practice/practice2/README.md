@@ -3,7 +3,7 @@
 ## Data visualisation process
 
 Here is a schema of data visualisation process using an SVG.
-![](screens/approach.png)
+![](screens/approach.jpg)
 
 * User input can be accessed usind varius DOM events such as changing the value and/or state of standard input elements, mouse events, keyboard, etc.
 * Layout is a certain representation of some data. Constructing a layout for visualisation can include filtering, aggregation, calculation additional values, ect.  
