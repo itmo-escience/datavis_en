@@ -82,14 +82,14 @@ A common pattern is to break the initial selection into three parts and define l
 var p = d3.select("svg")
   .selectAll("circle")
   .data(employees)
-    .attr('cx', function(d) { return d.age; });
-    .attr('cy', function(d) { return d.experience; });
+    .attr('cx', function(d) { return d.age; })
+    .attr('cy', function(d) { return d.experience; })
     .attr('r', function(d) { return d.salary; });
 
 // Create nodes 
 p.enter().append("circle")
-    .attr('cx', function(d) { return d.age; });
-    .attr('cy', function(d) { return d.experience; });
+    .attr('cx', function(d) { return d.age; })
+    .attr('cy', function(d) { return d.experience; })
     .attr('r', function(d) { return d.salary; });
 
 
