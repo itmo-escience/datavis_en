@@ -192,7 +192,7 @@ svg.append("path")
 ```
 ### Area
 
-[`d3.area`](https://github.com/d3/d3-shape/blob/v1.3.5/README.md#areas) is used to `path` as area.
+[`d3.area`](https://github.com/d3/d3-shape/blob/v1.3.5/README.md#areas) calculates a `path` on four parameters.
 ```JavaScript
 const area = d3.area()
         .x((d) => { return x(d.date) })
