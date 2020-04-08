@@ -95,7 +95,7 @@ You can also configure `startAngle` and `endAngel` for this layout to make in un
 
 ### Pack
 
-[`d3.pack`](https://github.com/d3/d3-hierarchy/blob/v1.1.8/README.md#pack) computes the `x`, `y` and `z` for each element in dataset
+[`d3.pack`](https://github.com/d3/d3-hierarchy/blob/v1.1.8/README.md#pack) computes the `x`, `y` and `r` for each element in dataset
 to make it fill the defined space.
 ```JavaScript
 d3.pack()
