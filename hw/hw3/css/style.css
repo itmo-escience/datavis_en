@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    font-family: "Bebas Neue", Arial; 
+}
+h1{
+    position: absolute;
+    top: 0px; left: 40%;
+    
+    font-size: 40px;
+    color: #DB202C;
+}
+.tooltip{
+    position: absolute;
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    display: none;
+}
+.donut-lable{
+    font-size: 40px;
+}
+.title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.year{
+    color: rgb(193, 193, 194);
+}
