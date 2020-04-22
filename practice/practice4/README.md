@@ -12,7 +12,7 @@ geo-position of an object:
 ### GeoJSON
 
 The most of the JavaScript geo libraries(including `D3`) are designed to work with geospatial data in GeoJSON format. 
-GeoJSON is based onJavaScript Object Notation (JSON). It defines several types of JSON objects 
+GeoJSON is based on JavaScript Object Notation (JSON). It defines several types of JSON objects 
 and the manner in which they are combined to represent data about geographic features. The geometry intself represented in GeoJSON
 as point or a set of points. 
 Here are an example of GeoJSON object:
