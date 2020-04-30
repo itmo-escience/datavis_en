@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    overflow: hidden;
+}
+#year{
+    position: absolute;
+    bottom: 50%; left: 10px;
+    font-size: 70px;
+}
+#menu{
+    position: absolute;
+    bottom: 250px; left: 10px;
+}
+#slider{
+    position: absolute;
+    bottom: 0px; left: 0px;
+}
+#overlay{
+    fill: white;
+    opacity: .9;
+}
+#country{
+    position: absolute;
+    bottom: 40%; left: 10px;
+    font-size: 50px;
+}
+rect{
+    fill: lightblue;
+}
+g.parameter-value path:focus{
+    outline: none;
+}
